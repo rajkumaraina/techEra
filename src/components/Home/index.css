@@ -1,0 +1,54 @@
+.MainContainer {
+  height: 100vh;
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.failure {
+  width: 50%;
+  height: 250px;
+}
+.failureHeading {
+  color: #000000;
+}
+.failurePara {
+  color: #64748b;
+}
+.failureButton {
+  background-color: #4656a1;
+  padding: 5px;
+  border: 0px none;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.listItem {
+  display: flex;
+  margin: 45px;
+  align-items: center;
+}
+
+.courseLogo {
+  width: 55px;
+  height: 55px;
+}
+.courseHeading {
+  color: #000000;
+  margin: 0;
+}
+.unordered {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.courses {
+  color: #000000;
+  margin-left: 45px;
+}
